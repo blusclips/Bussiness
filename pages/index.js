@@ -21,7 +21,7 @@ class Signup extends React.Component {
             <meta charSet='utf-8' />
             <meta name='viewport' content='initial-scale=1.0, width=device-width' />
         </Head>
-      <h1>Hello Next.js 👋 {JSON.stringify(this.props)} yammy </h1>
+      <h1>Hello Next.js 👋 {JSON.stringify(this.props)} yammy lottie </h1>
        <button className="btn btn-info" onClick={() => this.presMe(test.toggle)}> {JSON.stringify(test.toggle)} </button>
       <Link href='/about'><a>About</a></Link>
        </div> 
